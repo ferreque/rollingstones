@@ -1,0 +1,113 @@
+body{
+      font-family: 'Inconsolata', monospace;
+      font-size: larger;
+      font-weight: bolder;
+      background-color: lightgray;
+      text-align: center;
+}
+
+header{
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      z-index: 2;
+}
+  
+.navbar-expand-lg .navbar-nav .nav-link{
+      color: hsl(0, 29%, 97%);
+      background-color: rgba(0,0,0,0.5);
+      border-radius: 10px;  
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+      color: #dad6d6;
+      background-color: rgb(85, 85, 85);
+      border-radius: 10px;
+      font-weight: bold;
+}
+  
+.navbar-dark .navbar-brand{
+      color: #f3f3f3;
+}
+.navbar-dark .navbar-brand:hover{
+      color: #8a8a8a;
+}
+  
+.activado{
+      background-color: rgb(85, 85, 85);
+      border-radius: 10px;
+      font-weight: bold;
+}
+
+.bg-dark{
+      transition: all 1s ease;
+} 
+  
+.container-carousel{
+      position: absolute;
+      top: 50%;
+      left: 30px;
+      right: 30px;
+}
+
+#main .carousel-inner img{
+      max-height: 50vh;
+      object-fit: cover;
+      filter: opacity(0.8);
+}
+
+.socialbar {
+      height: 100px;
+}
+  
+.socialbar i{
+      font-size: 80px;
+      color: wheat;
+}
+.socialbar i:hover{
+      color: rgb(247, 173, 77)
+}
+  
+.footer-wrap{
+      padding-top: 30px;
+      padding-bottom: 20px;
+      background-color:rgb(51, 50, 50);
+}     
+.footer-wrap a{
+      color: white;
+}
+/*------------------------------*/
+.imagen-inicial{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+.imagen-span{
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+      font-size: 15px;
+}
+.imagen-span a{
+      text-decoration: none;
+      color: black;
+}
+.barra-horizontal{
+      background-color: black;
+       border: black 3px solid;
+       width: 80px;
+       display: inline-block;
+       text-align: center;
+ }
+.seccion-descripcion{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+textarea{
+      resize: none;
+}
+.imagen-modal{
+      width: 100%;
+      filter: grayscale(1);
+}
+
